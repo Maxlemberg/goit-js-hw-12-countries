@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luxplanjay/webpack-starter-kit.git"
+    "url": "git+https://github.com/Maxlemberg/goit-js-hw-12-countries.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/luxplanjay/webpack-starter-kit/issues"
+    "url": "https://github.com/Maxlemberg/goit-js-hw-12-countries.git"
   },
-  "homepage": "https://github.com/luxplanjay/webpack-starter-kit#readme",
+  "homepage": "https://github.com/Maxlemberg/goit-js-hw-12-countries",
   "devDependencies": {
     "@babel/core": "^7.12.13",
     "@babel/plugin-proposal-class-properties": "^7.12.13",
@@ -50,6 +50,10 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "handlebars": "^4.7.6"
+    "debounce": "^1.2.0",
+    "handlebars": "^4.7.6",
+    "loader": "^2.1.1",
+    "lodash": "^4.17.20",
+    "lodash.debounce": "^4.0.8"
   }
 }
