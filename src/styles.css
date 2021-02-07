@@ -20,12 +20,12 @@ body {
 }
 
 .search-area {
-  width: 500px;
-  height: 30px;
+  width: 600px;
+  height: 50px;
   border: 2px solid blueviolet;
   border-radius: 5px;
-  margin-top: 100px;
   outline: none;
+  font-size: 20px;
 }
 
 .focus {
@@ -35,9 +35,13 @@ body {
 .container {
   width: 100%;
   height: 100%;
+
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+
+  margin-top: 50px;
 }
 
 .countrieName {
@@ -64,4 +68,10 @@ body {
 .js-countrie {
   font-size: 20px;
   color: green;
+}
+.name-searcher {
+  display: inline-block;
+  text-align: center;
+  margin: 0, auto;
+  color: rgb(91, 22, 155);
 }
